@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+:root {
+    --black-text: #111;
+    --gray-text: #f2f2f2;
+    --paragraph-text: #454545;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+h1 {
+    font-size: 34px;
+    color: var(--black-text);
+}
+
+h2 {
+    font-size: 28px;
+    color: var(--black-text);
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0px;
+    background-color: var(--black-text);
+    width: 100%;
+    padding: 0px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li {
+    padding: 0px 18px;
+}
+
+nav ul li a {
+    font-family: Montserrat;
+    font-size: 16px;
+
+    color: var(--gray-text);
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid var(--gray-text);
+}
+/* End Navbar */
+
+/* Main */
+main {
+    box-sizing: border-box;
+    margin: 50px 0px 10px 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#title {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    max-width: 100%;
+    background-color: var(--black-text);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 7px;
+}
+
+#img-caption {
+    font-family: Montserrat;
+    line-height: 1.8rem;
+    font-size: 16px;
+    color: var(--gray-text);
+    margin: 15px 0px;
+}
+/* End Main */
+
+/* Tribute Info */
+#tribute-info {
+    margin: 90px auto 0px auto;
+    max-width: 400px;
+}
+
+#tribute-info p {
+    font-size: 17px;
+    line-height: 1.5rem;
+    color: var(--paragraph-text);
+    text-align: left;
+}
+/* End Tribute Info */
+
+/* Album */
+#album {
+    max-width: 400px;
+    margin: 90px auto 0px auto;
+}
+
+.album-item {
+    max-width: 320px;
+    height: 320px;
+    background-color: var(--gray-text);
+    margin: 0px auto 20px auto;
+}
+/* End Album */
+
+/* Videos */
+#videos {
+    margin: 90px auto 0px auto;
+    max-width: 865px;
+}
+
+.vid-item {
+    max-width: 400px;
+    height: 225px;
+    background-color: var(--gray-text);
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+/* End Videos */
+
+/* Follow */
+#follow {
+    margin: 90px auto 0px auto;
+    max-width: 400px;
+}
+/* End Follow */
+
+#follow ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+#follow li {
+    font-size: 2rem;
+}
+  
+#follow li a {
+    color: var(--black-text);
+}
+/* End Follow */
+
+@media (min-width: 900px) {
+    #img-div {
+        max-width: 865px;
+        margin: 0px auto;
+    }
+
+    #tribute-info {
+        max-width: 865px;
+    }
+
+    #album {
+        max-width: 865px !important;
+    }
+    
+    .album {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .album-item {
+        width: 320px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
+    .video-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly !important;
+    }
+
+    .vid-item {
+        width: 50%;
+        height: 242px;
+        margin-bottom: 20px;
+    }
+}
