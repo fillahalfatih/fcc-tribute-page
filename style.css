@@ -126,9 +126,13 @@ img {
 
 .album-item {
     max-width: 320px;
-    height: auto;
+    height: 320px;
     background-color: var(--gray-text);
     margin: 0px auto 20px auto;
+}
+
+.album-item img {
+    width: 100%;
 }
 /* End Album */
 
@@ -142,7 +146,7 @@ img {
     max-width: 400px;
     height: 225px;
     background-color: var(--gray-text);
-    margin-bottom: 10px;
+    margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
 }
