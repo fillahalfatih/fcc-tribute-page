@@ -170,13 +170,17 @@ iframe {
 #follow li {
     font-size: 2rem;
 }
-  
+
 #follow li a {
     color: var(--black-text);
 }
 /* End Follow */
 
 @media (min-width: 900px) {
+    nav ul li {
+        padding: 0px 36px;
+    }
+
     #img-div {
         max-width: 865px;
         margin: 0px auto;
