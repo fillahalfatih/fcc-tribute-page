@@ -126,7 +126,7 @@ img {
 
 .album-item {
     max-width: 320px;
-    height: 320px;
+    height: auto;
     background-color: var(--gray-text);
     margin: 0px auto 20px auto;
 }
@@ -214,7 +214,7 @@ iframe {
 
     .vid-item {
         width: 50%;
-        height: 242px;
+        height: 225px;
         margin-bottom: 20px;
     }
 }
