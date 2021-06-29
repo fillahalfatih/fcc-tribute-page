@@ -1,4 +1,4 @@
-# freeCodeCamp Tribute Page - Project #2
+# freeCodeCamp Tribute Page - Project #1
 - Live version: [fillahalfatih.github.io/fcc-tribute-page/](https://fillahalfatih.github.io/fcc-tribute-page/)
 
 ## Tools
