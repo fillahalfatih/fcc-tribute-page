@@ -8,7 +8,7 @@
 - Visual Studio Code
 
 ## Screenshot
-![freeCodeCamp Tribute Page](https://github.com/fillahalfatih/fcc-survey-form/blob/main/screenshot/Tribute-Page-freeCodeCamp-Project.png "Tribute Page")
+![freeCodeCamp Tribute Page](https://github.com/fillahalfatih/fcc-tribute-page/blob/main/screenshot/Tribute-Page-freeCodeCamp-Project.png "Tribute Page")
 
 ## Author
 - Muhammad Fillah Alfatih - [@fillahalfatih](github.com/fillahalfatih)
